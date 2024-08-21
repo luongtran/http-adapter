@@ -18,7 +18,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @author GeLo <geloen.eric@gmail.com>
  */
-abstract class AbstractStream implements StreamableInterface
+abstract class AbstractStream implements StreamInterface
 {
     /**
      * Destructs the stream.
