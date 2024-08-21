@@ -11,7 +11,7 @@
 
 namespace Ivory\HttpAdapter\Message\Stream;
 
-use Psr\Http\Message\StreamableInterface;
+use Psr\Http\Message\StreamInterface;
 
 /**
  * Abstract stream.
