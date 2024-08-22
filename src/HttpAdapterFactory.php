@@ -33,6 +33,10 @@ class HttpAdapterFactory
 
     /** @var array */
     private static $adapters = array(
+        self::GUZZLE6 => array(
+            'adapter' => 'Ivory\HttpAdapter\Guzzle6HttpAdapter',
+            'client'  => 'GuzzleHttp\Handler\CurlHandler',
+        ),
         self::GUZZLE_HTTP => array(
             'adapter' => 'Ivory\HttpAdapter\GuzzleHttpHttpAdapter',
             'client'  => 'GuzzleHttp\Client',
